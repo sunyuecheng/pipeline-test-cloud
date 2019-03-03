@@ -2,9 +2,9 @@ pipeline {
   agent any
   environment {
     PACKAGE_REPO_DIR='/home/cloud/package'
-    INSTALL_CONIFIG_SERVER_FLAG='true'
-    INSTALL_CONSUL_FLAG='true'
-    INSTALL_ZIPKIN_FLAG='true'
+    INSTALL_CONIFIG_SERVER_FLAG='false'
+    INSTALL_CONSUL_FLAG='false'
+    INSTALL_ZIPKIN_FLAG='false'
     INSTALL_KONG_FLAG='true'
   }
 
